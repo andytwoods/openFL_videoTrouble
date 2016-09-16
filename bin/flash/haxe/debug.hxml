@@ -1,0 +1,21 @@
+-main ApplicationMain 
+-cp C:/openfl
+-D openfl=4.0.0
+-cp C:/lime
+-D lime=2.9.1
+-cp C:/HaxeToolkit/haxe/lib/actuate/1,8,7
+-D actuate=1.8.7
+-cp src
+-cp C:\openfl/externs/core/flash
+-cp C:\openfl/externs/core/openfl
+-D native-trace
+-D tools=2.9.1
+-D no-compilation
+-D openfl-flash
+-D fdb
+-D web
+-swf-version 11.2
+-swf bin/flash/bin/delASAP.swf
+-swf-header 800:480:60:000000
+-cp bin/flash/haxe
+-debug
